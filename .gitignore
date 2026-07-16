@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# local account store — contains live session tickets, never commit
+accounts.json
+
+# build / reverse-engineering artifacts
+_build/
+_extracted/
+_src/
+_verify/
+Error_Remaining_Buff
+Error_Remaining_Bytes
+
+# backups
+*.orig-backup
+*.new
